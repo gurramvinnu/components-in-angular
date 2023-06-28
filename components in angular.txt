@@ -1,0 +1,28 @@
+components:
+
+1.reusabitiy--its can be reusabity of ui elements into self contained units.
+2.modularization-- components can combined & composed in ui structure.
+3.separation of concerns-- angular follows the principle of seprtion of concerns, its help in achieve this sepration by encapuslation both the ui template (html). & logic (TS) into single units.
+4.data binding. 
+5.life cycle hooks.
+6.testing.
+
+* one component data will be used in another component.
+app.component.ts -------> header .component.html
+
+parent --child.
+
+app.componet.html--->  <app-header></app-header>
+
+ @input(decorator)
+
+child -----parent
+
+  @output (decorator).
+  template reference variable.
+  @viewchld(decorator).
+
+
+between components :
+
+components <--service--> components2.
